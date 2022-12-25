@@ -3,7 +3,9 @@ from turtle import Turtle, Screen
 timmy = Turtle()
 screen = Screen()
 
-for i in range(7):
+timmy.shape("turtle")
+
+for i in range(15):
     timmy.pendown()
     timmy.forward(10)
     timmy.penup()
